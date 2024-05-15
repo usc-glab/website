@@ -145,7 +145,7 @@ a:focus {
 
 .dropdown-content {
   display: none;
-
+  background: #990000;
   animation: fadeInUpMenu 0.5s;
 }
 
