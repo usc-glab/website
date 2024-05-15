@@ -3035,6 +3035,10 @@ input[type="button"].btn-block {
   position: relative;
 }
 
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+
 .dropdown-toggle {
   white-space: nowrap;
 }

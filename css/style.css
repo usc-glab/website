@@ -143,6 +143,47 @@ a:focus {
   padding-left: 25px;
 }
 
+.dropdown-content {
+  display: none;
+
+  animation: fadeInUpMenu 0.5s;
+}
+
+.has-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+@media (min-width: 992px) {
+  .dropdown-content {
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+.nav-item .has-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+@keyframes fadeInUpMenu {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .navbar-brand span {
   font-weight: bold;
   font-size: 24px;
