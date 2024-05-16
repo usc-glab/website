@@ -98,17 +98,26 @@
           </p>
         </div>
             <div class="box ">
-              <div class="img-box" style="flex: max-content; width: 400px;">
-                <img src="images/arch.png" style="height: 200px; width: 300px;" alt="">
+              <div class="img-box" style="flex: max-content; width: 500px;">
+                <img src="images/arch.png" style="height: 200px; width: 500px;" alt="">
               </div>
               <div class="detail-box">
                 <h5>
                   Project Overview
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  The framework is developed to provide a platform for hardware and kernel simulation.
+                  It is designed to be modular and extensible, allowing for easy integration of new hardware and kernel modules.
+                  Right now it is divided into two main parts: the kernel and the hardware.
+
+                  The framework now provides support RISC-V and M68K architectures.
+                  <br>
+                  Device: essentially an abstraction of a hardware component. It can be a simple device like a timer or a more complex devices.
+                    <br>
+                  System Board: a collection of devices that are connected to a bus. The system board is the main component of the hardware simulation.
+                    <br>
+                  Mushashi: a simple m68k emulator that is used to run the kernel (luna68k currently).
+                    <br>
                 </p>
               </div>
             </div>
